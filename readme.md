@@ -92,6 +92,10 @@ No actual content here
 
 #Phase 1#
 
+**Categories for Posts:**
+
++ [x] Finished initial category hierarchy
+
 **Top Nav:**
 
 + [ ] Home (static content + most recent posts)
@@ -118,6 +122,6 @@ No actual content here
 
 + [ ] Some static content + most recent posts
 
-**Events/Twitter Sidebar**
+**Events**
 
 + [ ] Upcoming Events
