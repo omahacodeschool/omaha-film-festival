@@ -94,31 +94,31 @@ No actual content here
 
 **Top Nav:**
 
-[] Home (static content + most recent posts)
-[] Films (page containing listings of films by year, with links if appropriate)
-[] Call for Entries (page)
-[] Sponsors (page)
-[] Buzz (posts by tag)
-[] Past Winners (posts by tag)
-[] Contact (Form)
-[] About (Page)
-    [] Press Kit (page)
-    [] Staff (page)
-    [] Organization History (page)
+[ ] Home (static content + most recent posts)
+[ ] Films (page containing listings of films by year, with links if appropriate)
+[ ] Call for Entries (page)
+[ ] Sponsors (page)
+[ ] Buzz (posts by tag)
+[ ] Past Winners (posts by tag)
+[ ] Contact (Form)
+[ ] About (Page)
+    [ ] Press Kit (page)
+    [ ] Staff (page)
+    [ ] Organization History (page)
 
 **Side Nav:**
 
-[] Showtimes (link to external site)
-[] Upcoming Events (plugin / link to external site)
-[] Conference (page)
-[] Past Events (page)
-[] Screenplay Finalists (page)
-[] Festival Passes (page w/ link)
+[ ] Showtimes (link to external site)
+[ ] Upcoming Events (plugin / link to external site)
+[ ] Conference (page)
+[ ] Past Events (page)
+[ ] Screenplay Finalists (page)
+[ ] Festival Passes (page w/ link)
 
 **Main Content Display**
 
-[] Some static content + most recent posts
+[ ] Some static content + most recent posts
 
 **Events/Twitter Sidebar**
 
-[] Important dates / upcoming announcements!
+[ ] Important dates / upcoming announcements!
