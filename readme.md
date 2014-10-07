@@ -1,5 +1,7 @@
 #Omaha Film Festival#
 
+Paul and Andrew update the [Omaha Film Festival](http://www.omahafilmfestival.org/) website to be in Wordpress.
+
 ##Home Page#
 Welcome message & Description, announcements, Events (sidebar), Navigation (Top and Side), sponsors footer, header
 
