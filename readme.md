@@ -100,11 +100,10 @@ No actual content here
 + [ ] Sponsors (page)
 + [ ] Buzz (posts by category)
 + [ ] Past Winners (posts by category)
-+ [ ] Contact (Form)
-+ [ ] About (Page)
-    + [ ] Press Kit (page)
-    + [ ] Staff (page)
-    + [ ] Organization History (page)
++ [x] Contact (Form)
++ [x] About (Page)
+    + [x] Press Kit (page)
+    + [x] Staff (page)
 
 **Side Nav:**
 
