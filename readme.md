@@ -98,8 +98,8 @@ No actual content here
 + [ ] Films (page containing listings of films by year, with links if appropriate)
 + [ ] Call for Entries (page)
 + [ ] Sponsors (page)
-+ [ ] Buzz (posts by tag)
-+ [ ] Past Winners (posts by tag)
++ [ ] Buzz (posts by category)
++ [ ] Past Winners (posts by category)
 + [ ] Contact (Form)
 + [ ] About (Page)
     + [ ] Press Kit (page)
@@ -109,7 +109,7 @@ No actual content here
 **Side Nav:**
 
 + [ ] Showtimes (link to external site)
-+ [ ] Upcoming Events (plugin / link to external site)
++ [ ] Upcoming Events (link to external site)
 + [ ] Conference (page)
 + [ ] Past Events (page)
 + [ ] Screenplay Finalists (page)
@@ -121,4 +121,4 @@ No actual content here
 
 **Events/Twitter Sidebar**
 
-+ [ ] Important dates / upcoming announcements!
++ [ ] Upcoming Events
