@@ -41,12 +41,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   display: inline;
 }
 
-.nav-item {
-  padding: 5px 5px;
-}
+/*.nav-item {
+  margin: 5px 5px;
+}*/
 
 .side-nav {
-  
+  margin: 5px 5px;
 }
 
 .nav-bar {
@@ -56,6 +56,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .sidebar {
   float: left;
   margin: 10px;
+  width: 180px;
+  height: 100%;
+}
+
+.body-wrapper {
+  height: auto;
 }
 
 .main-body {
@@ -66,6 +72,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .main-body-content {
   padding-top: 30px;
+  height: 100%;
 }
 
 .title-banner {
@@ -91,14 +98,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .sponsors-list {
-  
+  width: 1000px;
+  float: left;
+  margin: 10px;
 }
 
 /* STYLE STUFF */
 
 body {
-  background: black;
-  
+  background: black; 
+}
+
+.body-wrapper {
+
+}
+
+li {
+  list-style-type: none;
 }
 
 .content-wrapper {
@@ -122,7 +138,6 @@ body {
   text-transform: uppercase;
   font-family: "Arial Narrow", sans-serif;
   font-size: 120%;
-
 }
 
 .top-nav .nav-item{
@@ -139,7 +154,6 @@ body {
 
 .side-nav {
   background: #666666;
-  width: 200px;
   padding: 5px 0px 5px;
 }
 
@@ -164,7 +178,7 @@ body {
 }
 
 .events-sidebar {
-  
+  background: #CA600C;
 }
 
 .footer {
@@ -172,7 +186,7 @@ body {
 }
 
 .sponsors-list {
-  
+  background: #F5EFD3;
 }
 
 .border-top {
