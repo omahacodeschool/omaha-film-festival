@@ -125,3 +125,12 @@ No actual content here
 **Events**
 
 + [ ] Upcoming Events
+
+#Setting up Wordpress Locally#
+
+1. Download MAMP, then run it (it's just a regular application)
+2. Download Wordpress from Wordpress.org; unzip the contents of the Wordpress folder into your project folder
+3. Point MAMP towards your project folder; using `localhost:8888`, you can access the actual site
+4. But before you do that, use the default admin pane (PHPMyAdmin) to create a database for the project
+5. Get the temporary usernames and passwords up and going (convention: `root` for both)
+6. Go to town on the themes (stored in `/wp-content/themes`)
