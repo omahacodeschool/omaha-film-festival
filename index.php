@@ -16,24 +16,15 @@
       </div>
       <!-- Top Navigation Bar -->
       <div class="nav-bar border-top border-bottom centered">
-        <ul>
-          <li class="top-nav"><a href="#" class="nav-item">Home</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">Films</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">Call for Entries</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">Sponsors</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">Buzz</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">Past Winners</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">Contact</a></li>
-          <li class="top-nav"><a href="#" class="nav-item">About</a></li>
-        </ul>
+        <?php if( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
+              wp_nav_menu( array( 'theme_location' => 'top-nav', 'menu_class' => 'top-nav') ); 
+          }
+        ?>
         <img src="http://www.omahafilmfestival.org/images/index_r4_c1.jpg" class="banner-image">
       </div>
     </div>
     
-    <?//php if ( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
-          wp_nav_menu( array( 'theme_location' => 'top-nav') ); 
-    //}
-    ?>
+
     
     <?//php wp_nav_menu( array( 'theme_location' => 'top-nav' ) ); ?>
     
