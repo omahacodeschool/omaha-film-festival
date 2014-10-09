@@ -29,6 +29,9 @@
         <img src="http://www.omahafilmfestival.org/images/index_r4_c1.jpg" class="banner-image">
       </div>
     </div>
+    
+    <?php wp_nav_menu( array( 'theme_location' => 'top-nav' ) ); ?>
+    
     <!-- Start to the body content -->
     <div class="body-wrapper clearfix">
       <!-- Navigation Sidebar -->
