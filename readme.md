@@ -103,7 +103,7 @@ No actual content here
 + [ ] Call for Entries (page)
 + [ ] Sponsors (page)
 + [ ] Buzz (posts by category)
-+ [ ] Past Winners (posts by category)
++ [X] Past Winners (posts by category)
 + [x] Contact (Form)
 + [x] About (Page)
     + [x] Press Kit (page)
@@ -128,9 +128,19 @@ No actual content here
 
 #Setting up Wordpress Locally#
 
-1. Download MAMP, then run it (it's just a regular application)
-2. Download Wordpress from Wordpress.org; unzip the contents of the Wordpress folder into your project folder
-3. Point MAMP towards your project folder; using `localhost:8888`, you can access the actual site
-4. But before you do that, use the default admin pane (PHPMyAdmin) to create a database for the project
-5. Get the temporary usernames and passwords up and going (convention: `root` for both)
-6. Go to town on the themes (stored in `/wp-content/themes`)
+In order to set up a local copy of a Flywheel-hosted wordpress site, we must do several things:
+
+1. Download MAMP and install the application wherever makes us happiest
+2. Download the official wordpress install from wordpress.org
+3. Create a project directory for your Wordpress project, then copy the entirety of the install-folder contents into this project.
+4. Point MAMP toward the directory containing your project directory (this will let you work on multiple wordpress sites at once if you feel so inclined)
+5. On your Flywheel site, export the database as SQL, making sure to ignore the `options` table; this table will only make you suffer. Make sure to save the database where you can easily find it.
+6. Using MAMP, click on "Open Start Page"; this will take you to your admin panel. From there, search for the PHPAdmin page. This is where you will need to be
+7. Create a database with a name that is relevant to your project. Leave it blank
+8. Go to `localhost:8888` and select the folder where you placed the Wordpress install files
+9. Now you will have to install Wordpress. When prompted for the database, make sure that name matches the name of the project database you created in PHPAdmin. When prompted for the database prefix, make sure that it matches the database prefix you see in Flywheel's admin page.
+10. Let the install run.
+11. Open up Sequel Pro (this should come with MAMP); connect to the database with a `socket` connection (the username and password should both be `root`), then select your database from the pulldown menu at the top-left.
+12. Import (using the `file` menu) your database from Flywheel into the database you have open. You can probably ignore most, if not all, errors.
+13. This will probably time out your local wordpress session, which is okay. Re-log-in using your credentials, then check to see if the posts and pages all exist as expected.
+14. Now you are ready to create a theme folder. In `wp-content/themes`, create a new folder for your theme, then initialize a Git repository inside that folder. This will mean that your Git repository only contains theme-specific files, instead of containing the entire Wordpress install. Thus, when Wordpress updates (or when someone else chooses to work on your theme on their own install), it probably won't create merge conflicts, etc.
