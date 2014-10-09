@@ -93,17 +93,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
 }
 
-.footer {
-  
-}
-
 .sponsors-list {
   width: 1000px;
   float: left;
   margin: 10px;
+  padding: 0px;
 }
 
+.sponsors-list img {
+  width: 100px;
+  height: 82px;
+  float: left;
+}
+
+.footer {
+  
+}
+
+
 /* STYLE STUFF */
+
+
 
 body {
   background: black; 
@@ -187,6 +197,7 @@ li {
 
 .sponsors-list {
   background: #F5EFD3;
+  
 }
 
 .border-top {
