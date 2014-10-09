@@ -30,7 +30,12 @@
       </div>
     </div>
     
-    <?php wp_nav_menu( array( 'theme_location' => 'top-nav' ) ); ?>
+    <?//php if ( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
+          wp_nav_menu( array( 'theme_location' => 'top-nav') ); 
+    //}
+    ?>
+    
+    <?//php wp_nav_menu( array( 'theme_location' => 'top-nav' ) ); ?>
     
     <!-- Start to the body content -->
     <div class="body-wrapper clearfix">
