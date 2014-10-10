@@ -10,16 +10,6 @@
     <?php endif; ?>
   </div>
 </div>
-
-<!-- Events sidebar -->
-<div class="events-sidebar sidebar">
-  <h1>Events</h1>
-  <ul>
-    <li>Sample content</li>
-    <li>Sample content</li>
-    <li>Sample content</li>
-    <li>Sample content</li>
-  </ul>
-</div>
+<?php get_sidebar('events'); ?>
 </div>
 <?php get_footer() ?>
