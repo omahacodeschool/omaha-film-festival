@@ -7,7 +7,7 @@
 <div class="main-body">
   <div class= "title-banner clearfix">
     <div class= "page-title">
-      <h1><?php the_title() ?></h1>
+      <h1><?php single_term_title() ?></h1>
     </div>
     <div class= "social-media">
       <h2>Follow | t | f</h2>
@@ -15,6 +15,7 @@
   </div>
   <div class= "main-body-content">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+      <h1><?php the_title(); ?></h1>
       <p><?php the_content(__('(more...)')); ?></p>
       <hr> 
     <?php endwhile; else: ?>
