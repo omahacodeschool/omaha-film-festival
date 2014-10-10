@@ -157,7 +157,7 @@ li {
 
 }
 
-.nav-item {
+.menu-item {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Arial Narrow", sans-serif;
@@ -168,7 +168,7 @@ li {
   color: #CA600C;
 }
 
-.top-nav li {
+.top-nav li, .side-nav li {
   text-transform: uppercase;
   font-family: "Arial Narrow", sans-serif;
   font-size: 120%;
@@ -176,12 +176,19 @@ li {
   padding-right: 3px;
 }
 
-.top-nav a {
+.menu-item a {
   text-decoration: none;
+}
+
+.side-nav li {
+  margin: 5px 8px;
+}
+
+.top-nav a {
   color: #CA600C;
 }
 
-.side-nav .nav-item {
+.side-nav a {
   color: #F5EFD3;
 }
 
