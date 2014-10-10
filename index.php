@@ -32,6 +32,10 @@
     <div class="body-wrapper clearfix">
       <!-- Navigation Sidebar -->
       <div class="side-nav sidebar">
+        <?php if( has_nav_menu( 'side-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
+              wp_nav_menu( array( 'theme_location' => 'side-nav', 'menu_class' => 'side-nav') ); 
+          }
+        ?>
         <ul>
           <li class="side-nav"><a href="#" class="nav-item">Showtimes</a></li>
           <li class="side-nav"><a href="#" class="nav-item">Upcoming Events</a></li>
