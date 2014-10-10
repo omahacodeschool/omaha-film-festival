@@ -66,7 +66,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .sidebar {
   float: left;
   margin: 10px;
-  width: 160px;
+  width: 140px;
   height: 100%;
 }
 
@@ -77,7 +77,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .main-body {
   float: left;
   margin: 10px;
-  width: 620px;
+  width: 660px;
 }
 
 .main-body-content {
@@ -276,6 +276,16 @@ li {
 
 .main-body-content strong {
   font-weight: bold;
+}
+
+.main-body-content blockquote {
+  margin-left: 20px;
+  font-style: italic;
+  border-left: 3px solid #666666;
+}
+
+.main-body-content blockquote p {
+  color: #333333;
 }
 
 .main-body-content a {
