@@ -153,4 +153,4 @@ We've provided, in wordpress, a sidebar named "events" -- you can stick your eve
 2. Create a google calendar devoted to OFF events -- it doesn't particularly matter what you call it, but make sure the calendar is publicly available.
 3. Under the "Share this calendar" menu, grab the XML link, then add it in the specified place.
 4. From here, we can go to the "Widgets" menu (under "Appearance") in the Wordpress admin panel. Grab the Google Calendar Events widget and drag it right into the sidebar. You can play with the settings there, but it should be fine for now. The biggest change is to modify the layout from "grid" view to "list" view.
-5. Everything should work now.
+5. Everything should work now. For more information, check out the [Documentation Page](http://wpdocs.philderksen.com/google-calendar-events/) for the Google Calendar Events plug-in.
