@@ -144,3 +144,13 @@ In order to set up a local copy of a Flywheel-hosted wordpress site, we must do 
 12. Import (using the `file` menu) your database from Flywheel into the database you have open. You can probably ignore most, if not all, errors.
 13. This will probably time out your local wordpress session, which is okay. Re-log-in using your credentials, then check to see if the posts and pages all exist as expected.
 14. Now you are ready to create a theme folder. In `wp-content/themes`, create a new folder for your theme, then initialize a Git repository inside that folder. This will mean that your Git repository only contains theme-specific files, instead of containing the entire Wordpress install. Thus, when Wordpress updates (or when someone else chooses to work on your theme on their own install), it probably won't create merge conflicts, etc.
+
+#Events Calendar#
+
+We've provided, in wordpress, a sidebar named "events" -- you can stick your events calendar into this sidebar. Here's how it works:
+
+1. Install the "Google Calendar Events" plugin (Phil Derksen) on the plugins page.
+2. Create a google calendar devoted to OFF events -- it doesn't particularly matter what you call it, but make sure the calendar is publicly available.
+3. Under the "Share this calendar" menu, grab the XML link, then add it in the specified place.
+4. From here, we can go to the "Widgets" menu (under "Appearance") in the Wordpress admin panel. Grab the Google Calendar Events widget and drag it right into the sidebar. You can play with the settings there, but it should be fine for now. The biggest change is to modify the layout from "grid" view to "list" view.
+5. Everything should work now.
