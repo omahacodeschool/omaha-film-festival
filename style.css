@@ -269,6 +269,7 @@ li {
 .gce-list-event.gce-tooltip-event {
   font-size: 100%;
   font-weight: bold;
+  background: none;
 }
 
 .footer {
@@ -329,4 +330,13 @@ li {
   color: black;
   font-weight: bold;
   font-size: 150%;
+}
+
+.border-top-and-bottom {
+  border-top: 1px dashed white;
+  width: 80%;
+  border-bottom: 1px dashed white;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
