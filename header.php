@@ -12,8 +12,7 @@
     <!-- Header content & Navbar -->
     <div class="header">
       <div class="banner">
-        <img src="<?php bloginfo('template_directory'); ?>/images/default_header.jpg" class="banner-image" >
-        <!-- <img src="http://www.omahafilmfestival.org/images/index_r1_c1.jpg" class="banner-image"> -->
+        <img src="<?php header_image(); ?>" class="banner-image">
       </div>
       <!-- Top Navigation Bar -->
       <div class="nav-bar border-top-and-bottom centered">

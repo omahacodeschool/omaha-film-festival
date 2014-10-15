@@ -38,6 +38,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .header {
+  margin-bottom: 8px;
   
 }
 
@@ -273,12 +274,18 @@ li {
 }
 
 .footer {
+  margin: 0 auto;
+  text-align: center;
   
 }
 
 .sponsors-list {
-  background: #F5EFD3;
-  
+  background: #F5EFD3; 
+}
+
+.main-body-content {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .main-body-content h2 {
@@ -299,7 +306,7 @@ li {
 
 .main-body-content p {
   font-family: Tahoma, Verdana, sans-serif;
-  margin: 10px;
+  margin: 10px 15px;
   color: black;
   font-size: 90%;
 }
@@ -337,6 +344,6 @@ li {
   width: 80%;
   border-bottom: 1px dashed white;
   margin: 0 auto;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
