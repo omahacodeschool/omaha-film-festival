@@ -2,7 +2,10 @@
 <html>
 <head>
   <title><?php wp_title(); ?> <?php bloginfo('name'); ?> </title>  
+  <?php wp_enqueue_script("jquery"); ?>
+  
   <?php wp_head(); ?>
+  <script type="text/javascript" src="<?php bloginfo("template_url"); ?>/js/columnheight.js"></script>
   
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
   
