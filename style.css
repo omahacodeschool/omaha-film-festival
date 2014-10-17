@@ -256,6 +256,11 @@ li {
   padding-right: 3px;
 }
 
+.top-nav li{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
 .page-title h1 {
   text-transform: uppercase;
   font-size: 200%;
@@ -286,7 +291,8 @@ li {
 }
 
 .side-nav li {
-  margin: 5px 8px;
+  margin: 5px 8px 14px;
+  line-height: 1;
 }
 
 .top-nav a {
@@ -306,12 +312,12 @@ li {
   padding: 5px 0px 5px;
 }
 
-.nav-bar {
-  
+.nav-bar *{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.sidebar {
-  
+.side-nav *{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main-body {
