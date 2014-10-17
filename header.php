@@ -7,6 +7,7 @@
   <?php wp_head(); ?>
   <script type="text/javascript" src="<?php bloginfo("template_url"); ?>/js/columnheight.js"></script>
   
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:700|Rokkitt:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
   
 </head>
