@@ -23,8 +23,8 @@ jQuery( document ).ready ( function() {
   //but first, some extra cushion.
   maxHeight += 20;
   
-  jQuery(sideNav).height(maxHeight-15); //adjusted to account for margin/padding
-  jQuery(events).height(maxHeight-20); //adjusted to account for margin/padding
+  jQuery(sideNav).height(maxHeight-10); //adjusted to account for margin/padding
+  jQuery(events).height(maxHeight-10); //adjusted to account for margin/padding
   jQuery(mainBody).height(maxHeight);
   
   
