@@ -22,7 +22,6 @@
         <?php if( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
         wp_nav_menu( array( 'theme_location' => 'top-nav', 'menu_class' => 'top-nav') ); 
       } ?>
-      <!-- <img src="http://www.omahafilmfestival.org/images/index_r4_c1.jpg" class="banner-image"> -->
       </div>
     </div>
     <!-- Start to the body content -->
@@ -30,6 +29,7 @@
     <?php get_sidebar() ?>
     <!-- Main Body Content -->
     <div class="main-body">
+      <!-- Orange title banner -->
       <div class= "title-banner clearfix">
         <div class= "page-title">
           <?php $title = single_term_title('', false) ?>
