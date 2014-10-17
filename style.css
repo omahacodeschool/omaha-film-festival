@@ -146,8 +146,8 @@ a.genericon:hover {
 
 .sidebar {
   float: left;
-  margin: 10px;
-  width: 140px;
+  margin: 10px 0;
+  width: 150px;
   height: 100%;
 }
 
@@ -157,7 +157,7 @@ a.genericon:hover {
 
 .main-body {
   float: left;
-  margin: 10px;
+  margin: 10px 20px;
   width: 640px;
 }
 
