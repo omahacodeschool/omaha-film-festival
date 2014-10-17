@@ -183,6 +183,9 @@ a.genericon:hover {
   padding-right: 10px;
   padding-top: 5px;
 }
+.social-media a{
+  margin-left: 4px;
+}
 
 .events-sidebar {
   
