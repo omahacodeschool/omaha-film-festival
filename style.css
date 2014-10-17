@@ -60,7 +60,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  */
 
 .genericon {
-	font-size: 32px;
+	font-size: 24px;
 	vertical-align: top;
 	text-align: center;
 	-moz-transition: color .1s ease-in 0;
@@ -77,8 +77,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	-webkit-font-smoothing: antialiased;
 	speak: none;
   overflow: hidden;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -180,6 +180,7 @@ a.genericon:hover {
 .social-media {
   float: right;
   padding-right: 10px;
+  padding-top: 6px;
 }
 
 .events-sidebar {
