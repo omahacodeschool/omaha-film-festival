@@ -15,7 +15,7 @@
     <!-- Header content & Navbar -->
     <div class="header">
       <div class="banner">
-        <img src="<?php header_image(); ?>" class="banner-image">
+        <a href="/"><img src="<?php header_image(); ?>" class="banner-image"></a>
       </div>
       <!-- Top Navigation Bar -->
       <div class="nav-bar border-top-and-bottom centered">
