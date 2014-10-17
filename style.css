@@ -113,6 +113,10 @@ a.genericon:hover {
   color: white;
 }
 
+.top-container-padding{
+  padding-top: 30px !important;
+}
+
 .header {
   margin-bottom: 8px;
   

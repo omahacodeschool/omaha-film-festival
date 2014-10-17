@@ -28,7 +28,7 @@
     <div class="body-wrapper clearfix">
     <?php get_sidebar() ?>
     <!-- Main Body Content -->
-    <div class="main-body">
+    <div class="main-body top-container-padding">
       <!-- Orange title banner -->
       <div class= "title-banner clearfix">
         <div class= "page-title">
