@@ -40,6 +40,6 @@
           <?php endif ?>
         </div>
         <div class= "social-media">
-          <h2>Follow | t | f</h2>
+          <h2><a href="#" class="genericon genericon-twitter">Twitter</a> <a href="#" class="genericon genericon-facebook">Facebook</a></h2>
         </div>
       </div>
