@@ -355,19 +355,32 @@ li {
 
 .widgettitle {
   text-transform: uppercase;
-  font-size: 125%;
+  font-size: 145%;
   color:black;
   border-bottom: 1px dashed black;
+  font-family: 'Rokkitt', serif;
+}
+
+.gce-feed{
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
 }
 
 .gce-feed div {
   font-size: 90%;
 }
 
+.gce-feed a[target="_blank"]{
+  margin-left: 0;
+}
+
 .gce-list-event.gce-tooltip-event {
-  font-size: 100%;
+  font-size: 90%;
   font-weight: bold;
   background: none;
+  padding: 0;
+  line-height: 1.15;
 }
 
 .footer {
