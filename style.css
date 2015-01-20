@@ -60,7 +60,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  */
 
 .genericon {
-	font-size: 32px;
+	font-size: 24px;
 	vertical-align: top;
 	text-align: center;
 	-moz-transition: color .1s ease-in 0;
@@ -77,8 +77,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	-webkit-font-smoothing: antialiased;
 	speak: none;
   overflow: hidden;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -113,6 +113,10 @@ a.genericon:hover {
   color: white;
 }
 
+.top-container-padding{
+  padding-top: 30px !important;
+}
+
 .header {
   margin-bottom: 8px;
   
@@ -142,8 +146,8 @@ a.genericon:hover {
 
 .sidebar {
   float: left;
-  margin: 10px;
-  width: 140px;
+  margin: 10px 0;
+  width: 150px;
   height: 100%;
 }
 
@@ -153,13 +157,14 @@ a.genericon:hover {
 
 .main-body {
   float: left;
-  margin: 10px;
+  margin: 10px 20px;
   width: 640px;
 }
 
 .main-body-content {
   padding-top: 30px;
-  height: 100%;
+  padding-bottom: 30px;
+  min-height: 100%;
 }
 
 .title-banner {
@@ -176,6 +181,10 @@ a.genericon:hover {
 .social-media {
   float: right;
   padding-right: 10px;
+  padding-top: 5px;
+}
+.social-media a{
+  margin-left: 4px;
 }
 
 .events-sidebar {
@@ -251,10 +260,23 @@ li {
   padding-right: 3px;
 }
 
+.top-nav li{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
 .page-title h1 {
   text-transform: uppercase;
   font-size: 200%;
   color: black;
+  font-family: 'Rokkitt', serif;
+  
+  /*
+    These are technically layout styles, but they're only necessary because
+    the Rokkitt font has weird line-height built-in. Remove these if the font changes.
+  */
+  position: relative;
+  top: 2px;
 }
 
 .social-media {
@@ -281,7 +303,8 @@ li {
 }
 
 .side-nav li {
-  margin: 5px 8px;
+  margin: 5px 8px 14px;
+  line-height: 1;
 }
 
 .top-nav a {
@@ -301,12 +324,12 @@ li {
   padding: 5px 0px 5px;
 }
 
-.nav-bar {
-  
+.nav-bar *{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.sidebar {
-  
+.side-nav *{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main-body {
@@ -336,25 +359,38 @@ li {
 
 .widgettitle {
   text-transform: uppercase;
-  font-size: 125%;
+  font-size: 145%;
   color:black;
   border-bottom: 1px dashed black;
+  font-family: 'Rokkitt', serif;
+}
+
+.gce-feed{
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
 }
 
 .gce-feed div {
   font-size: 90%;
 }
 
+.gce-feed a[target="_blank"]{
+  margin-left: 0;
+}
+
 .gce-list-event.gce-tooltip-event {
-  font-size: 100%;
+  font-size: 90%;
   font-weight: bold;
   background: none;
+  padding: 0;
+  line-height: 1.15;
 }
 
 .footer {
   margin: 0 auto;
   text-align: center;
-  
+  background: #F1EDC9;
 }
 
 .sponsors-list {
